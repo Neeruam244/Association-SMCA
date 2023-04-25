@@ -48,7 +48,7 @@ a:hover{
     text-align: center;
     color: #4682B4;
     margin: 10px; 
-    padding-top: 150px;
+    padding-top: 180px;
 }
 .puces{
     list-style-type: square;
@@ -215,6 +215,9 @@ img {
     padding-bottom: 20px;
     margin-right: 50px;
 }
+.festinoel{
+    padding-bottom: 50px;
+}
 @media screen and (min-width: 768px){
     .titre1{
         text-align: center;
@@ -254,5 +257,27 @@ img {
         clear: right;
         padding-bottom: 20px;
         margin-right: 80px;
+    }
+}
+
+/*  -------- FOOTER -------- */ 
+.assoc4{
+    margin-bottom: 20px;
+}
+.img-footer{
+    margin: 20px;
+}
+@media screen and (min-width: 768px){
+    .img-footer{
+        float: right; 
+        clear: right;
+        margin: 20px;
+        margin-right: 200px;
+        padding-bottom: 50px;
+    }
+    .assoc4{
+        margin: 20px;
+        margin-left: 150px;
+        margin-bottom: 20px;
     }
 }
